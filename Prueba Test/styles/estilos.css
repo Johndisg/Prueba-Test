@@ -4,31 +4,34 @@
     width: 100%;
 }
 
-.navbar{
+.navbar {
     background-color: black;
 }
 
-.navbar-brand img{
+.navbar-brand img {
     margin-left: 250px;
 }
 
-.container-fluid button{
+.container-fluid button {
     margin-right: 870px;
     font-weight: bold;
 }
 
-.container{
+.container {
     color: #fff;
 }
 
+body {
+    overflow-x: hidden;
+}
 
-.seccion1{
+.seccion1 {
     background-image: url('../Imagenes/cursos-de-educacion-digital.jpg');
     background-size: cover;
     padding-bottom: 150px;
 }
 
-.tittle1{
+.tittle1 {
     padding-top: 5%;
     margin-left: 250px;
 
@@ -37,34 +40,150 @@
 
 @media (max-width: 991.98px) {
     .navbar-brand img {
-        margin-left: 0; /* Eliminar el margen izquierdo en pantallas pequeñas */
+        margin-left: 0;
     }
 
     .container-fluid button {
-        margin-right: 0; /* Eliminar el margen derecho en pantallas pequeñas */
+        margin-right: 0;
     }
 }
 
-.parrafo1{
+.parrafo1 {
     padding-top: 2%;
     margin-left: 250px;
     font-size: 1vw;
 }
 
-.col-md-4{
+.col-md-4 {
     padding-top: 4%;
 }
 
-.card-body{
+.card-body {
     background-color: black;
 }
 
-#form1{
+#form1 {
     margin-left: -100px;
     margin-right: 250px;
+    background-color: transparent;
 }
 
-.custom-input{
-    
+.card-header {
+    color: black;
+    font-weight: bold;
+}
+
+.custom-input {
     margin: 20px;
+}
+
+.form-control {
+    margin-bottom: -10px;
+}
+
+.form-select {
+    margin-bottom: -10px;
+}
+
+.form-check {
+    margin-top: 20px;
+}
+
+.seccion2 {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.seccion2 h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.seccion2 p {
+    padding: 268px;
+    padding-top: 0;
+    text-align: justify;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+@media (max-width: 767.98px) {
+    .tittle1 {
+        font-size: 4vw;
+    }
+
+    .parrafo1 {
+        font-size: 2vw;
+    }
+
+    .seccion2 h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.seccion3 {
+    background-color: rgb(219, 219, 219);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 35px;
+    justify-content: center;
+    padding-right: 380px;
+    padding-left: 207px;
+
+}
+
+.nivelEdu {
+    margin-top: 30px;
+    margin-left: 130px;
+    font-weight: 700;
+    margin-right: 10px;
+
+}
+
+.nivelEdu select {
+    border-radius: 10px;
+    border-color: black;
+}
+
+.seccion4 {
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.seccion4 .card {
+    margin-right: 40px;
+    margin-top: 40px;
+    width: 340px;
+
+}
+
+.seccion4 .card-body {
+    background-color: #fff;
+}
+
+.seccion4 .card-text {
+    text-align: justify;
+}
+
+.seccion4 .card-header {
+    background-color: black;
+}
+
+#custom-tit {
+    margin-bottom: 30px;
+}
+
+.seccion4 .card-body {
+    margin: 10px;
+}
+
+.seccion4 button {
+    width: 288px;
+    border-radius: 2px;
 }
