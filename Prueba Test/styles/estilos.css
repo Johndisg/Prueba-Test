@@ -123,7 +123,7 @@ body {
 }
 
 .seccion3 {
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(235, 235, 235);
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -149,7 +149,7 @@ body {
 }
 
 .seccion4 {
-    background-color: darkgray;
+    background-color: rgb(209, 209, 209);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -160,7 +160,6 @@ body {
     margin-right: 40px;
     margin-top: 40px;
     width: 340px;
-
 }
 
 .seccion4 .card-body {
@@ -187,3 +186,4 @@ body {
     width: 288px;
     border-radius: 2px;
 }
+
