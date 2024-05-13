@@ -34,7 +34,6 @@ body {
 .tittle1 {
     padding-top: 5%;
     margin-left: 250px;
-
     font-size: 3vw;
 }
 
@@ -42,7 +41,6 @@ body {
     .navbar-brand img {
         margin-left: 0;
     }
-
     .container-fluid button {
         margin-right: 0;
     }
@@ -112,18 +110,16 @@ body {
     .tittle1 {
         font-size: 4vw;
     }
-
     .parrafo1 {
         font-size: 2vw;
     }
-
     .seccion2 h2 {
         font-size: 1.5rem;
     }
 }
 
 .seccion3 {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(245, 245, 245);
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -132,7 +128,6 @@ body {
     justify-content: center;
     padding-right: 380px;
     padding-left: 207px;
-
 }
 
 .nivelEdu {
@@ -140,7 +135,6 @@ body {
     margin-left: 130px;
     font-weight: 700;
     margin-right: 10px;
-
 }
 
 .nivelEdu select {
@@ -149,11 +143,11 @@ body {
 }
 
 .seccion4 {
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(240, 240, 240);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    padding-bottom: 80px;
 }
 
 .seccion4 .card {
@@ -185,5 +179,160 @@ body {
 .seccion4 button {
     width: 288px;
     border-radius: 2px;
+    background-color: rgb(194, 40, 41);
+    color: #fff;
 }
 
+#row2 {
+    margin-top: -60px;
+}
+
+.seccion5 {
+    background-color: #000000;
+    color: #fff;
+    padding-bottom: 150px;
+}
+
+.container.benefits-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.benefits {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    justify-content: center;
+}
+
+.benefits-section {
+    position: relative;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    overflow: hidden;
+    padding: 40px;
+    padding-top: 0;
+    padding-left: 22px;
+}
+
+.benefits-section h2 {
+    margin-bottom: 35px;
+}
+
+.benefits-section::before,
+.benefits-section::after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+}
+
+.benefits-section::before {
+    bottom: 0;
+    left: 0;
+    width: 92%;
+    height: 1px;
+}
+
+.benefits-section::after {
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 90%;
+}
+
+.benefits .benefits-section:nth-child(n+4) {
+    border-bottom: none;
+}
+
+.custom-benefits::after,
+.custom-benefits::before {
+    content: '';
+    position: absolute;
+    background-color: #000000;
+}
+
+.custom-benefits2::before {
+    content: '';
+    position: absolute;
+    background-color: #000000;
+}
+
+.custom-benefits3::before {
+    content: '';
+    position: absolute;
+    background-color: #000000;
+}
+
+.custom-benefits4::after {
+    content: '';
+    position: absolute;
+    background-color: #000000;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.logos li {
+    margin-right: 10px;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.logos img {
+    width: 135px;
+    height: 45;
+}
+
+.seccion6 .container {
+    background-image: url(../Imagenes/fondo2.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-top: -150px;
+    padding-bottom: 40px;
+}
+
+.seccion6-header {
+    padding-top: 70px;
+}
+
+.tittle-seccion6 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.seccion6 .container .custom-row {
+    margin-top: 100px;
+}
+
+.custom-row h1 {
+    font-weight: bold;
+}
+
+.text {
+    margin-left: 35px;
+    width: 240px;
+}
+
+.seccion7 {
+    margin-top: 100px;
+}
+
+.seccion7 .container {
+    color: #000000;
+}
